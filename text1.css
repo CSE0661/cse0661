@@ -6,13 +6,13 @@ body{
        
      }
 p.normal{
-          font-style:italic;
-          color:green;
-          font-family:monospace;
-          font-size:10px
-          letter-spacing:5px;
-          word-spacing:5px;
- }
+           font-style:italic;
+           color:green;
+           font-family:monospace;
+           font-size:10px
+           letter-spacing:5px;
+           word-spacing:5px;
+        }
 p.special{
            font-style:bold;
            color:blue;
@@ -21,7 +21,7 @@ p.special{
          }
      
 h1{
-    margin-top:200px;
+     margin-top:200px;
      text-shadow:8px 4px 8px;
   }
 h3{
@@ -33,10 +33,21 @@ ol{
   }
 img{
       border-radius:20%;
-      opacity:0.2;
     
    }
-img:hover/*pseudo class/*/{
-             border:2px dashed black; 
-             opacity:1.0;
-         }
+.hover/*pseudo class/*/{
+                              border:2px dashed black; 
+                              opacity:2.0;
+                          }
+#under{
+         text-decoration:underline;
+       }
+.bone{
+       border-style:dotted;
+       border-width:5px;
+      }
+.btwo{
+       border-style:hidden;
+       border-width:2px;
+      }
+   
