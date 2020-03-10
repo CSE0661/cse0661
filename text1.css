@@ -3,6 +3,7 @@ body{
          background-image:url("/home/Sem6B10/Desktop/sidhi0661/index.jpeg");
          background-repeat:no-repeat;
          background-position:top center;
+      
        
      }
 p.normal{
@@ -35,7 +36,7 @@ img{
       border-radius:20%;
     
    }
-.hover/*pseudo class/*/{
+img.ho:hover/*pseudo class/*/{
                               border:2px dashed black; 
                               opacity:2.0;
                           }
@@ -50,4 +51,15 @@ img{
        border-style:hidden;
        border-width:2px;
       }
-   
+p.normal::first-line/*pseudo element/*/{
+        font-style:italic;
+           color:red;
+        font-family:comic sans;
+      }
+::selection{
+             color:red;
+             background:yellow;
+           }
+.boox{
+          background-image:linear-gradient(to right,lightblue,lightgreen);
+     }
